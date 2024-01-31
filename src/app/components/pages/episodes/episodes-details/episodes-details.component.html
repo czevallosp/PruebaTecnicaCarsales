@@ -1,0 +1,5 @@
+ <div class="row justify-content-center mt-3" *ngIf="detail$ | async as detail$">
+    <div class="col-xs-12 col-sm-6 col-md-6 justify-content-center">
+        <app-episode [episode]=detail$></app-episode>
+    </div>
+  </div>
